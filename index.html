@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+</head>
+<body>
+    <h1>Conversor de Temperatura</h1>
+    <form action="conversor.php" method="post">
+        <label for="temp">Digite a temperatura:</label>
+        <input type="number" name="temp" required>
+        <br>
+        <label for="tipo">Escolha o tipo de conversão:</label>
+        <select name="tipo" required>
+            <option value="celsiusToFahrenheit">Celsius para Fahrenheit</option>
+            <option value="fahrenheitToCelsius">Fahrenheit para Celsius</option>
+        </select>
+        <br>
+        <input type="submit" value="Converter">
+    </form>
+</body>
+</html>
+
